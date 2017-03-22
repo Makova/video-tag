@@ -1,10 +1,12 @@
+
+# Note: This fork works for modern versions of ruby and supports Jekyll 3+. 
+
+This fork was needed as it appears the original developer has ceased work on the origin gem. Feel free to use at will.
+
+
 # Octopress Video Tag
 
 Easy HTML5 video tags for Jekyll sites.
-
-[![Build Status](http://img.shields.io/travis/octopress/video-tag.svg)](https://travis-ci.org/octopress/video-tag)
-[![Gem Version](http://img.shields.io/gem/v/octopress-video-tag.svg)](https://rubygems.org/gems/octopress-video-tag)
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://octopress.mit-license.org)
 
 ## Installation
 
@@ -13,7 +15,7 @@ Easy HTML5 video tags for Jekyll sites.
 Add this gem to your site's Gemfile in the `:jekyll_plugins` group:
 
     group :jekyll_plugins do
-      gem 'octopress-video-tag'
+      gem 'octopress-video-tag', :git => "https://github.com/hubertron/video-tag"
     end
 
 Then install the gem with Bundler
@@ -22,7 +24,7 @@ Then install the gem with Bundler
 
 ### Manual Installation
 
-    $ gem install octopress-video-tag
+    $ gem install gem 'octopress-video-tag', :git => "https://github.com/hubertron/video-tag"
 
 Then add the gem to your Jekyll configuration.
 
@@ -83,7 +85,7 @@ This would output the following HTML
 
 ## Contributing
 
-1. Fork it ( https://github.com/octopress/video-tag/fork )
+1. Fork it ( https://github.com/hubertron/video-tag/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
