@@ -1,5 +1,8 @@
 # Changelog
 
+### 1.1.2 (2017-03-28)
+- Updated to support latest versions of Jekyl and Ruby
+
 ### 1.1.1 (2015-01-08)
 - Fixed whitespace issue on height and width tags.
 
